@@ -70,4 +70,10 @@ body{
         transition: 500ms;
         border-bottom: 1px solid transparent;
     }
+    .container .team{
+        width: 150px;
+    }
+    .container .team img{
+        width: 70px;    
+    }
 }

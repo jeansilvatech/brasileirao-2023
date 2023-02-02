@@ -104,6 +104,7 @@ const teams = [
     
 ]
 for(i=0; i<=teams.length; i++){
+    
     container.innerHTML = container.innerHTML + `
     <div class="team">
             <img src="./assets/img/${teams[i].image}" alt="">
