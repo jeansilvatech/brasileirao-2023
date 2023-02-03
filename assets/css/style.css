@@ -21,6 +21,13 @@ body{
     justify-content: center;
     align-items: center;
     margin: 10px;
+    animation: enter 1s ease-in-out;
+}
+@keyframes enter {
+    0%{
+        transform: translateX(-400px);
+    }
+   
 }
 .name img{
     width: 200px;
@@ -36,6 +43,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 10px;
+    animation: enterTeams 4s ease-in-out;
+}
+@keyframes enterTeams {
+    0%{
+        opacity: 0;
+    }
+    
 }
 .container .team{
     width: 190px;
@@ -48,15 +63,16 @@ body{
     border-bottom: 1px solid transparent;
 }
 .container .team:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(30, 144, 255, 0.9);
     transform: scale(1.2);
     transition: 500ms;
-    border-bottom: 1px solid #c1c1c1;
+    border-bottom: 1px solid yellow;
 }
 .container .team h2{
     color: #fff;
     font-size: 20px;
 }
+
 .container .team p{
    color: #c1c1c1;
    font-size: 15px;

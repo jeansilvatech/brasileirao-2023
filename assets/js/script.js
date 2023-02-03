@@ -73,7 +73,7 @@ const teams = [
     {
         name: "Grêmio",
         image: "gremio.svg",
-        state: "Rio grande do Sul",
+        state: "Rio Grande do Sul",
     },
     {
         name: "Internacional",
