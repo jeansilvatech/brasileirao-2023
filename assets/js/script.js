@@ -104,12 +104,15 @@ const teams = [
     
 ]
 for(i=0; i<=teams.length; i++){
-    
+    let nameTeam = teams[i].name;
+    let image = teams[i].image;
+    let nameClass = image.split(".svg").join("");
+    let state = teams[i].state
     container.innerHTML = container.innerHTML + `
-    <div class="team">
-            <img src="./assets/img/${teams[i].image}" alt="">
-            <h2>${teams[i].name}</h2>
-            <p>${teams[i].state}</p>
+    <div class="team ${nameClass}">
+            <img src="./assets/img/${image}" alt="">
+            <h2>${nameTeam}</h2>
+            <p>${state}</p>
         </div>
     `
 }
