@@ -5,6 +5,9 @@
     box-sizing: border-box;
     transition: 500ms;
 }
+::-webkit-scrollbar{
+    background-color: #006400;
+}
 body{
     font-family: 'Josefin Sans', sans-serif;
     background-color: #006400;
@@ -14,6 +17,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 .name{
     display: flex;
@@ -21,11 +25,17 @@ body{
     justify-content: center;
     align-items: center;
     margin: 10px;
-    animation: enter 1s ease-in-out;
+    animation: enter 2s ease-out;
 }
 @keyframes enter {
     0%{
-        transform: translateX(-400px);
+        transform: translateY(-500px);
+    }
+    50%{
+        transform: translateY(100px); 
+    }
+    100%{
+        transform: translateX(0px);
     }
    
 }
@@ -43,8 +53,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px;
-    animation: enterTeams 4s ease-in-out;
+    animation: enterTeams 1s ease-in-out;
 }
 @keyframes enterTeams {
     0%{
@@ -53,20 +62,29 @@ body{
     
 }
 .container .team{
-    width: 190px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border-radius: 10px;
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 .container .team:hover{
     background-color: rgba(30, 144, 255, 0.9);
     transform: scale(1.2);
     transition: 500ms;
-    border-bottom: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    animation: card 4s infinite;
+}
+@keyframes card{
+    0%, 100%{
+        background-color: rgba(30, 144, 255, 0.9);
+    }
+    50%{
+        background-color: rgba(30, 144, 255, 0.3);
+    }
 }
 .container .team h2{
     color: #fff;

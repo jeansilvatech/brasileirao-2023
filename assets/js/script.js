@@ -26,7 +26,7 @@ const teams = [
         state: "Rio de Janeiro",
     },
     {
-        name: "Bragantino",
+        name: "RB Bragantino",
         image: "bragantino.svg",
         state: "São Paulo",
     },
@@ -103,16 +103,19 @@ const teams = [
     },
     
 ]
-for(i=0; i<=teams.length; i++){
-    let nameTeam = teams[i].name;
-    let image = teams[i].image;
-    let nameClass = image.split(".svg").join("");
-    let state = teams[i].state
+teams.forEach((team)=>{
     container.innerHTML = container.innerHTML + `
-    <div class="team ${nameClass}">
-            <img src="./assets/img/${image}" alt="">
-            <h2>${nameTeam}</h2>
-            <p>${state}</p>
-        </div>
-    `
-}
+    <div class="team ${team.image.split(".svg").join("")}">
+            <img src="./assets/img/${team.image}" alt="">
+            <h2>${team.name}</h2>
+            <p>${team.state}</p>
+    </div>
+    `   
+})
+
+const team = document.querySelectorAll('.team');
+team.forEach((card)=>{
+    card.addEventListener('click', ()=>{
+        console.log(card.classList[1])
+    })
+})
