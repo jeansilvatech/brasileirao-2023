@@ -116,6 +116,6 @@ teams.forEach((team)=>{
 const team = document.querySelectorAll('.team');
 team.forEach((card)=>{
     card.addEventListener('click', ()=>{
-        console.log(card.classList[1])
+        console.log(card.classList[1].toUpperCase())
     })
 })
