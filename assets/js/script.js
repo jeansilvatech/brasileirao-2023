@@ -109,13 +109,38 @@ teams.forEach((team)=>{
             <img src="./assets/img/${team.image}" alt="">
             <h2>${team.name}</h2>
             <p>${team.state}</p>
+        
     </div>
     `   
 })
+const containerGames = document.querySelector('.container-games')
+const games = document.querySelector('.games')
+const btnClose = document.querySelector('.close')
+const content = document.querySelector('.content')
 
 const team = document.querySelectorAll('.team');
 team.forEach((card)=>{
     card.addEventListener('click', ()=>{
-        console.log(card.classList[1].toUpperCase())
+        containerGames.style.display = 'flex'
+        games.classList.add('enter-modal')
+        content.innerHTML = `${card.classList[1].toUpperCase()}
+
+        `
+        teams.forEach((team)=>{
+            let nameClass = card.classList[1];
+            let nameImage = team.image.split(".svg").join("");
+            if(nameClass===nameImage){
+            content.innerHTML = `
+            <div class="team ${team.image.split(".svg").join("")}">
+                    <h2>Jogos</h2>
+                    <img src="./assets/img/${team.image}" alt="">
+            </div>
+            `   
+            }
+        })
     })
+})
+games.classList.remove('enter-modal')
+btnClose.addEventListener('click', ()=>{
+    containerGames.style.display = 'none';
 })

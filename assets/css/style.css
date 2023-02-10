@@ -102,6 +102,81 @@ body{
     object-fit: contain;
     margin: 10px;   
 }
+.container-games{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    overflow: hidden;
+}
+.container-games .games{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(0, 100, 0, 1);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.navigation .close{
+    width: 45px;
+    margin: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navigation .close:hover{
+    color: rgba(30, 144, 255, 0.9);
+}
+.games .content{
+    height: 100%;
+    display: flex;
+   justify-content: center;
+}
+.content .team{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content .team h2{
+    padding: 10px;
+}
+.enter-modal{
+    animation: enterModal 1s ease-out;
+}
+.exit-modal{
+    animation: exitModal 1s ease-out;
+}
+@keyframes enterModal {
+    0%{
+        transform: translateY(-500px);
+    }
+    50%{
+        transform: translateY(100px); 
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes exitModal {
+    100%{
+        transform: translateY(-1000px);
+    }
+}
+
 @media(max-width:768px){
     
     body{
