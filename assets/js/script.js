@@ -100,8 +100,12 @@ const teams = [
         image: "vasco.svg",
         state: "Rio de Janeiro",
 
-    },
-    
+    }
+]
+const tableGames = [
+    {
+        
+    }
 ]
 teams.forEach((team)=>{
     container.innerHTML = container.innerHTML + `

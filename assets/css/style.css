@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 500ms;
+    /* transition: 500ms; */
 }
 ::-webkit-scrollbar{
     background-color: #006400;
@@ -103,9 +103,9 @@ body{
     margin: 10px;   
 }
 .container-games{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100%;
     display: none;
     justify-content: center;
     align-items: center;
@@ -114,8 +114,8 @@ body{
     overflow: hidden;
 }
 .container-games .games{
-    width: 90vw;
-    height: 90vh;
+    width: 50%;
+    height: 90%;
     background-color: rgba(0, 100, 0, 1);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -154,8 +154,13 @@ body{
 .content .team h2{
     padding: 10px;
 }
+.content .team img{
+    width: 100px;
+    height: 90px;
+    object-fit: contain;
+}
 .enter-modal{
-    animation: enterModal 1s ease-out;
+    animation: enterModal 1s ease-in-out;
 }
 .exit-modal{
     animation: exitModal 1s ease-out;
@@ -187,6 +192,10 @@ body{
     }
     .name img{
         width: 100px;
+    }
+    .container-games .games{
+        width: 90%;
+        height: 90%;
     }
 }
 @media(max-width:480px){
