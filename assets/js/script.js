@@ -148,3 +148,6 @@ games.classList.remove('enter-modal')
 btnClose.addEventListener('click', ()=>{
     containerGames.style.display = 'none';
 })
+containerGames.addEventListener('click', ()=>{
+    containerGames.style.display = 'none'
+})
