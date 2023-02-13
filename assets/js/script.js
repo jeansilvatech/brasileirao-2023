@@ -135,10 +135,10 @@ team.forEach((card)=>{
             let nameImage = team.image.split(".svg").join("");
             if(nameClass===nameImage){
             content.innerHTML = `
-            <div class="team ${team.image.split(".svg").join("")}">
-                    <h2>Jogos</h2>
-                    <img src="./assets/img/${team.image}" alt="">
-            </div>
+                <div class="team ${team.image.split(".svg").join("")}">
+                        <h2>Jogos</h2>
+                        <img src="./assets/img/${team.image}" alt="">
+                </div>
             `   
             }
         })
