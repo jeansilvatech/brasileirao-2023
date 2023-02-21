@@ -246,7 +246,6 @@ team.forEach((card)=>{
                 <div class="matches ${match.local.toLowerCase()}">
                 <span>${match.number}ª</span>
                 <img src="./assets/img/${match.adversary}" alt="">
-                <span class="local">- ${match.local}</span>
                 </div>`
                 
                 
