@@ -232,6 +232,10 @@ team.forEach((card)=>{
                 <div class="team ${team.image.split(".svg").join("")}">
                     <p>Tabela</p>
                         <img src="./assets/img/${team.image}" alt="">
+                        <div class="legend">
+                            <p>Casa<span class="casa"></span></p>
+                            <p>Fora<span class="fora"></span></p>
+                        </div>
                 </div>
                 <div class="container-content">
                 </div>
@@ -239,16 +243,19 @@ team.forEach((card)=>{
              team.matches.forEach((match)=>{
                 content.innerHTML = content.innerHTML +
                 `
-                <div class="matches">
-                <span>${match.number}º</span>
+                <div class="matches ${match.local.toLowerCase()}">
+                <span>${match.number}ª</span>
                 <img src="./assets/img/${match.adversary}" alt="">
-                <span>- ${match.local}</span>
+                <span class="local">- ${match.local}</span>
                 </div>`
+                
+                
             })
             }
         })
     })
 })
+
 
 games.classList.remove('enter-modal')
 btnClose.addEventListener('click', ()=>{
