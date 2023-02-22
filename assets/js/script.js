@@ -5,11 +5,203 @@ const teams = [
         name: "América",
         image: "america.svg",
         state: "Minas Gerais",
+        matches:[
+            {   number: 1,
+                adversary: "fluminense",
+                local: "Casa"
+            },
+            {
+                number: 2,
+                adversary: "sao-paulo",
+                local: "Fora"
+            },
+            {
+                number: 3,
+                adversary: "santos",
+                local: "Fora"
+            },
+            {
+                number: 4,
+                adversary: "cuiaba",
+                local: "Casa"
+            },
+            {
+                number: 5,
+                adversary: "bragantino",
+                local: "Fora"
+            },
+            {
+                number: 6,
+                adversary: "cruzeiro",
+                local: "Casa"
+            },
+            {
+                number: 7,
+                adversary: "fortaleza",
+                local: "Casa"
+            },
+            {
+                number: 8,
+                adversary: "botafogo",
+                local: "Fora"
+            },
+            {
+                number: 9,
+                adversary: "corinthians",
+                local: "Casa"
+            },
+            {
+                number: 10,
+                adversary: "athletico",
+                local: "Casa"
+            },
+            {
+                number: 11,
+                adversary: "gremio",
+                local: "Fora"
+            },
+            {
+                number: 12,
+                adversary: "internacional",
+                local: "Casa"
+            },
+            {
+                number: 13,
+                adversary: "atletico",
+                local: "Fora"
+            },
+            {
+                number: 14,
+                adversary: "coritiba",
+                local: "Fora"
+            },
+            {
+                number: 15,
+                adversary: "vasco",
+                local: "Casa"
+            },
+            {
+                number: 16,
+                adversary: "flamengo",
+                local: "Fora"
+            },
+            {
+                number: 17,
+                adversary: "palmeiras",
+                local: "Casa"
+            },
+            {
+                number: 18,
+                adversary: "bahia",
+                local: "Fora"
+            },
+            {
+                number: 19,
+                adversary: "goias",
+                local: "Casa"
+            },
+        ] 
     },
     {
         name: "Athletico",
         image: "athletico.svg",
         state: "Paraná",
+        matches:[
+            {   number: 1,
+                adversary: "goias",
+                local: "Casa"
+            },
+            {
+                number: 2,
+                adversary: "fluminense",
+                local: "Fora"
+            },
+            {
+                number: 3,
+                adversary: "atletico",
+                local: "Fora"
+            },
+            {
+                number: 4,
+                adversary: "flamengo",
+                local: "Casa"
+            },
+            {
+                number: 5,
+                adversary: "internacional",
+                local: "Fora"
+            },
+            {
+                number: 6,
+                adversary: "coritiba",
+                local: "Casa"
+            },
+            {
+                number: 7,
+                adversary: "bragantino",
+                local: "Fora"
+            },
+            {
+                number: 8,
+                adversary: "gremio",
+                local: "Casa"
+            },
+            {
+                number: 9,
+                adversary: "botafogo",
+                local: "Casa"
+            },
+            {
+                number: 10,
+                adversary: "america",
+                local: "Fora"
+            },
+            {
+                number: 11,
+                adversary: "sao-paulo",
+                local: "Fora"
+            },
+            {
+                number: 12,
+                adversary: "corinthians",
+                local: "Casa"
+            },
+            {
+                number: 13,
+                adversary: "palmeiras",
+                local: "Casa"
+            },
+            {
+                number: 14,
+                adversary: "fortaleza",
+                local: "Fora"
+            },
+            {
+                number: 15,
+                adversary: "bahia",
+                local: "Casa"
+            },
+            {
+                number: 16,
+                adversary: "vasco",
+                local: "Fora"
+            },
+            {
+                number: 17,
+                adversary: "cruzeiro",
+                local: "Casa"
+            },
+            {
+                number: 18,
+                adversary: "santos",
+                local: "Fora"
+            },
+            {
+                number: 19,
+                adversary: "cuiaba",
+                local: "Casa"
+            },
+        ] 
     },
     {
         name: "Atlético",
@@ -102,97 +294,97 @@ const teams = [
         state: "Rio de Janeiro",
         matches:[
             {   number: 1,
-                adversary: "atletico.svg",
+                adversary: "atletico",
                 local: "Fora"
             },
             {
                 number: 2,
-                adversary: "palmeiras.svg",
+                adversary: "palmeiras",
                 local: "Casa"
             },
             {
                 number: 3,
-                adversary: "bahia.svg",
+                adversary: "bahia",
                 local: "Casa"
             },
             {
                 number: 4,
-                adversary: "fluminense.svg",
+                adversary: "fluminense",
                 local: "Fora"
             },
             {
                 number: 5,
-                adversary: "coritiba.svg",
+                adversary: "coritiba",
                 local: "Fora"
             },
             {
                 number: 6,
-                adversary: "santos.svg",
+                adversary: "santos",
                 local: "Casa"
             },
             {
                 number: 7,
-                adversary: "sao-paulo.svg",
+                adversary: "sao-paulo",
                 local: "Fora"
             },
             {
                 number: 8,
-                adversary: "fortaleza.svg",
+                adversary: "fortaleza",
                 local: "Fora"
             },
             {
                 number: 9,
-                adversary: "flamengo.svg",
+                adversary: "flamengo",
                 local: "Casa"
             },
             {
                 number: 10,
-                adversary: "internacional.svg",
+                adversary: "internacional",
                 local: "Fora"
             },
             {
                 number: 11,
-                adversary: "goias.svg",
+                adversary: "goias",
                 local: "Casa"
             },
             {
                 number: 12,
-                adversary: "cuiaba.svg",
+                adversary: "cuiaba",
                 local: "Casa"
             },
             {
                 number: 13,
-                adversary: "botafogo.svg",
+                adversary: "botafogo",
                 local: "Fora"
             },
             {
                 number: 14,
-                adversary: "cruzeiro.svg",
+                adversary: "cruzeiro",
                 local: "Casa"
             },
             {
                 number: 15,
-                adversary: "america.svg",
+                adversary: "america",
                 local: "Fora"
             },
             {
                 number: 16,
-                adversary: "athletico.svg",
+                adversary: "athletico",
                 local: "Casa"
             },
             {
                 number: 17,
-                adversary: "corinthians.svg",
+                adversary: "corinthians",
                 local: "Fora"
             },
             {
                 number: 18,
-                adversary: "gremio.svg",
+                adversary: "gremio",
                 local: "Casa"
             },
             {
                 number: 19,
-                adversary: "bragantino.svg",
+                adversary: "bragantino",
                 local: "Fora"
             },
         ]   
@@ -201,7 +393,7 @@ const teams = [
 
 teams.forEach((team)=>{
     
-    container.innerHTML = container.innerHTML + `
+    container.innerHTML += `
     <div class="team ${team.image.split(".svg").join("")}">
             <img src="./assets/img/${team.image}" alt="">
             <h2>${team.name}</h2>
@@ -239,27 +431,72 @@ team.forEach((card)=>{
                 </div>
                 <div class="container-content">
                 </div>
-            `   
+            `  
              team.matches.forEach((match)=>{
-                content.innerHTML = content.innerHTML +
+                content.innerHTML +=
                 `
                 <div class="matches ${match.local.toLowerCase()}">
                 <span>${match.number}ª</span>
-                <img src="./assets/img/${match.adversary}" alt="">
+                <img src="./assets/img/${match.adversary}.svg" alt="">
                 </div>`
                 
                 
             })
+            // const btnReturn = document.querySelector('.btn-return')
+            // btnReturn.addEventListener('click', ()=>{
+            //     team.matches.forEach((match)=>{
+            //         let local = match.local.toLowerCase();
+            //         if(local=== 'casa'){ 
+            //             content.innerHTML +=
+            //                 `
+            //                 <div class="matches fora">
+            //                 <span>${match.number+19}ª</span>
+            //                 <img src="./assets/img/${match.adversary}.svg" alt="">
+            //                 </div>`     
+            //         }else{
+            //             content.innerHTML = content.innerHTML +
+            //                 `
+            //                 <div class="matches casa">
+            //                 <span>${match.number+19}ª</span>
+            //                 <img src="./assets/img/${match.adversary}.svg" alt="">
+            //                 </div>`
+            //         }
+            //         })
+            //         btnReturn.style.display='none'
+                    
+            // }) 
+            
             }
         })
     })
+    card.addEventListener('mouseover', ()=>{
+        team.matches.forEach((match)=>{
+            let local = match.local.toLowerCase();
+            if(local=== 'casa'){ 
+                content.innerHTML = content.innerHTML +
+                    `
+                    <div class="matches fora">
+                    <span>${match.number+19}ª</span>
+                    <img src="./assets/img/${match.adversary}.svg" alt="">
+                    </div>`     
+            }else{
+                content.innerHTML = content.innerHTML +
+                    `
+                    <div class="matches casa">
+                    <span>${match.number+19}ª</span>
+                    <img src="./assets/img/${match.adversary}.svg" alt="">
+                    </div>`
+            }
+            })
+    })
 })
+
 
 
 games.classList.remove('enter-modal')
 btnClose.addEventListener('click', ()=>{
     containerGames.style.display = 'none';
 })
-containerGames.addEventListener('click', ()=>{
-    containerGames.style.display = 'none'
-})
+// containerGames.addEventListener('click', ()=>{
+//     containerGames.style.display = 'none'
+// })
