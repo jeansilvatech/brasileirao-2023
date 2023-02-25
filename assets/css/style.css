@@ -125,6 +125,21 @@ body{
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.content .btn-shift{
+    display: none;
+}
+.games .btn-return,
+.content .btn-shift
+{
+    background-color: #006400;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .navigation{
     display: flex;
     width: 100%;
@@ -202,6 +217,19 @@ body{
     margin: 5px;
     border-radius: 10px;
     transition: 500ms;
+    animation: enter 1s ease-in-out;
+}
+@keyframes enter {
+    0%{
+        transform: translateY(-500px);
+    }
+    50%{
+        transform: translateY(100px); 
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
 }
 .content .matches:hover{
     background-color: rgba(0, 0, 0, 0.5);
@@ -228,6 +256,22 @@ body{
 }
 .fora{
     background-color: rgba(255,0,0, 0.7);
+}
+.content .return {
+    display: none;
+    animation: enterReturn 1s ease-in-out;
+}
+@keyframes enterReturn {
+    0%{
+        transform: translateY(500px);
+    }
+    50%{
+        transform: translateY(-100px); 
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
 }
 @keyframes enterModal {
     0%{

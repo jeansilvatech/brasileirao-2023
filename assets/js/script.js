@@ -428,6 +428,10 @@ team.forEach((card)=>{
                             <p>Casa<span class="casa"></span></p>
                             <p>Fora<span class="fora"></span></p>
                         </div>
+                        <div>
+                            
+                            <div class="btn-shift"><i class="fa-solid fa-chevron-up"></i></div>
+                        </div>
                 </div>
                 <div class="container-content">
                 </div>
@@ -438,33 +442,41 @@ team.forEach((card)=>{
                 <div class="matches ${match.local.toLowerCase()}">
                 <span>${match.number}ª</span>
                 <img src="./assets/img/${match.adversary}.svg" alt="">
+                </div>
+                <div class="matches return ${match.local.toLowerCase()==='fora'?'casa':'fora'}">
+                <span>${match.number+19}ª</span>
+                <img src="./assets/img/${match.adversary}.svg" alt="">
                 </div>`
-                
-                
+                  
             })
-            // const btnReturn = document.querySelector('.btn-return')
-            // btnReturn.addEventListener('click', ()=>{
-            //     team.matches.forEach((match)=>{
-            //         let local = match.local.toLowerCase();
-            //         if(local=== 'casa'){ 
-            //             content.innerHTML +=
-            //                 `
-            //                 <div class="matches fora">
-            //                 <span>${match.number+19}ª</span>
-            //                 <img src="./assets/img/${match.adversary}.svg" alt="">
-            //                 </div>`     
-            //         }else{
-            //             content.innerHTML = content.innerHTML +
-            //                 `
-            //                 <div class="matches casa">
-            //                 <span>${match.number+19}ª</span>
-            //                 <img src="./assets/img/${match.adversary}.svg" alt="">
-            //                 </div>`
-            //         }
-            //         })
-            //         btnReturn.style.display='none'
-                    
-            // }) 
+            const btnShift = document.querySelector('.btn-shift')
+            const btnReturn = document.querySelector('.btn-return')
+            btnReturn.addEventListener('click', ()=>{
+                const matches = document.querySelectorAll('.matches')
+                const matchesReturn = document.querySelectorAll('.content .return')
+                matches.forEach((matchesShift)=>{
+                    matchesShift.style.display = 'none'
+                })
+                matchesReturn.forEach((matchesRet)=>{
+                    matchesRet.style.display = 'flex'
+            
+                })
+                btnShift.style.display='flex';
+                btnReturn.style.display='none'
+            }) 
+            btnShift.addEventListener('click', ()=>{
+                const matches = document.querySelectorAll('.matches')
+                const matchesReturn = document.querySelectorAll('.content .return')
+                matches.forEach((matchesShift)=>{
+                    matchesShift.style.display = 'flex'
+                })
+                matchesReturn.forEach((matchesRet)=>{
+                    matchesRet.style.display = 'none'
+            
+                })
+                btnShift.style.display='none';
+                btnReturn.style.display='flex';
+            }) 
             
             }
         })
@@ -497,6 +509,3 @@ games.classList.remove('enter-modal')
 btnClose.addEventListener('click', ()=>{
     containerGames.style.display = 'none';
 })
-// containerGames.addEventListener('click', ()=>{
-//     containerGames.style.display = 'none'
-// })
