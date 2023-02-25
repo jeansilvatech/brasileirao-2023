@@ -481,26 +481,7 @@ team.forEach((card)=>{
             }
         })
     })
-    card.addEventListener('mouseover', ()=>{
-        team.matches.forEach((match)=>{
-            let local = match.local.toLowerCase();
-            if(local=== 'casa'){ 
-                content.innerHTML = content.innerHTML +
-                    `
-                    <div class="matches fora">
-                    <span>${match.number+19}ª</span>
-                    <img src="./assets/img/${match.adversary}.svg" alt="">
-                    </div>`     
-            }else{
-                content.innerHTML = content.innerHTML +
-                    `
-                    <div class="matches casa">
-                    <span>${match.number+19}ª</span>
-                    <img src="./assets/img/${match.adversary}.svg" alt="">
-                    </div>`
-            }
-            })
-    })
+    
 })
 
 

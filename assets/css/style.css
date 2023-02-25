@@ -127,8 +127,13 @@ body{
 }
 .content .btn-shift{
     display: none;
+    animation: enterReturn 1s ease-in-out;
 }
-.games .btn-return,
+.games .return .btn-return{
+    
+    animation: enter 1s ease-in-out;
+}
+.games .return .btn-return,
 .content .btn-shift
 {
     background-color: #006400;
@@ -303,7 +308,7 @@ body{
     }
     .container-games .games{
         width: 90%;
-        height: 90%;
+        height: 95%;
     }
     
 }
@@ -322,12 +327,12 @@ body{
     }
     .games .content{
         width: 390px;
+        height: 100%;
         justify-content:center;  
     }
     .content .matches{
         width: 90px;
         border: 1px solid #c1c1c1;
-        display: flex;
         justify-content: space-around;
     }
     .content .matches img{
