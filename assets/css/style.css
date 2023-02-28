@@ -113,13 +113,14 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(3px);
     overflow: hidden;
+
 }
 .container-games .games{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     height: 90%;
     background-color: #191970;
     border-radius: 20px;
@@ -143,8 +144,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 500ms;
 }
-
+.games .return .btn-return:hover,
+.content .btn-shift:hover
+{
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: 500ms;
+}
 .navigation{
     display: flex;
     width: 100%;
