@@ -207,6 +207,102 @@ const teams = [
         name: "Atlético",
         image: "atletico.svg",
         state: "Minas Gerais",
+        matches:[
+            {   number: 1,
+                adversary: "vasco",
+                local: "Casa"
+            },
+            {
+                number: 2,
+                adversary: "santos",
+                local: "Fora"
+            },
+            {
+                number: 3,
+                adversary: "athletico",
+                local: "Casa"
+            },
+            {
+                number: 4,
+                adversary: "botafogo",
+                local: "Fora"
+            },
+            {
+                number: 5,
+                adversary: "cuiaba",
+                local: "Fora"
+            },
+            {
+                number: 6,
+                adversary: "internacional",
+                local: "Casa"
+            },
+            {
+                number: 7,
+                adversary: "coritiba",
+                local: "Fora"
+            },
+            {
+                number: 8,
+                adversary: "palmeiras",
+                local: "Casa"
+            },
+            {
+                number: 9,
+                adversary: "cruzeiro",
+                local: "Fora"
+            },
+            {
+                number: 10,
+                adversary: "bragantino",
+                local: "Casa"
+            },
+            {
+                number: 11,
+                adversary: "fluminense",
+                local: "Fora"
+            },
+            {
+                number: 12,
+                adversary: "fortaleza",
+                local: "Fora"
+            },
+            {
+                number: 13,
+                adversary: "america",
+                local: "Casa"
+            },
+            {
+                number: 14,
+                adversary: "corinthians",
+                local: "Casa"
+            },
+            {
+                number: 15,
+                adversary: "goias",
+                local: "Fora"
+            },
+            {
+                number: 16,
+                adversary: "gremio",
+                local: "Fora"
+            },
+            {
+                number: 17,
+                adversary: "flamengo",
+                local: "Casa"
+            },
+            {
+                number: 18,
+                adversary: "sao-paulo",
+                local: "Fora"
+            },
+            {
+                number: 19,
+                adversary: "bahia",
+                local: "Casa"
+            },
+        ] 
     },
     {
         name: "Bahia",
