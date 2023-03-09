@@ -13,7 +13,7 @@ body{
     background-color: #006400;
     color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
     height: 100vh;
@@ -24,9 +24,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
     animation: enter 2s ease-out;
+    height: 100vh;
+    width: 30%;
+    background-color: #191970;
+    border-right: 2px solid yellow;
+
 }
+
 @keyframes enter {
     0%{
         transform: translateY(-500px);
@@ -333,7 +338,7 @@ body{
         border-bottom: 2px solid yellow;
         padding: 5px;
         margin: 0;
-        animation: enterMobile 3s ease-in-out; 
+        animation: enterMobile 3s ease-in-out;
     }
     .name h1{
         font-size: 20px;
