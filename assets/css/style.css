@@ -331,6 +331,10 @@ body{
         transition: 500ms;
         border-bottom: 1px solid transparent;
     }
+    .content .matches{
+        width: 90px;
+        height: 45px;
+    }
     .name {
         height: 180px;
         width: 100vw;
