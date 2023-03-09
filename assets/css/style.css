@@ -326,6 +326,25 @@ body{
         transition: 500ms;
         border-bottom: 1px solid transparent;
     }
+    .name {
+        height: 180px;
+        width: 100vw;
+        background-color: #191970;
+        border-bottom: 2px solid yellow;
+        padding: 5px;
+        margin: 0;
+        animation: enterMobile 3s ease-in-out; 
+    }
+    .name h1{
+        font-size: 20px;
+    }
+    @keyframes enterMobile {
+        0%{
+            height: 100vh;
+            border-bottom: 50px solid yellow;
+        }
+        
+    }
     .container .team{
         width: 150px;
     }
