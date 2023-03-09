@@ -336,6 +336,7 @@ body{
         width: 100vw;
         background-color: #191970;
         border-bottom: 2px solid yellow;
+        border-right: 0;
         padding: 5px;
         margin: 0;
         animation: enterMobile 3s ease-in-out;
