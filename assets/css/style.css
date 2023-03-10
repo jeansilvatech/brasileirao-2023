@@ -180,6 +180,7 @@ body {
 .content .btn-shift:hover {
     background-color: rgba(0, 0, 0, 0.35);
     transition: 500ms;
+    color: #fff;
 }
 
 .navigation {
