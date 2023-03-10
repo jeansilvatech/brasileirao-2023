@@ -602,7 +602,7 @@ const teams = [
             },
             {
                 number: 19,
-                adversary: "Vasco",
+                adversary: "vasco",
                 local: "Casa"
             },
         ] 
