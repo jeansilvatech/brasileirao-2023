@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     animation: enter 2s ease-out;
-    height: 100vh;
+    height: 100%;
     width: 30%;
     background-color: #191970;
     border-right: 2px solid yellow;
@@ -168,7 +168,7 @@ body {
     color: #1c1c1c;
     font-weight: 700;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 50%;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
@@ -361,7 +361,17 @@ span {
         transform: translateY(-1000px);
     }
 }
-
+@media(max-width:1024px){
+    .container .team img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin: 5px;
+}
+.name img {
+    width: 140px;
+}
+}
 @media(max-width:768px) {
 
     body {
@@ -375,7 +385,26 @@ span {
     .name img {
         width: 100px;
     }
+    .name {
+        height: 180px;
+        width: 100vw;
+        background-color: #191970;
+        border-bottom: 2px solid yellow;
+        border-right: 0;
+        padding: 5px;
+        margin: 0;
+        animation: enterMobile 3s ease-in-out;
+    }
 
+    .name h1 {
+        font-size: 20px;
+    }
+    @keyframes enterMobile {
+        0% {
+            height: 100vh;
+            border-bottom: 50px solid yellow;
+        }
+    }
     .container-games .games {
         width: 90%;
         height: 95%;
