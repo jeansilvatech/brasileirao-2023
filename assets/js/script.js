@@ -1370,7 +1370,7 @@ const teams = [
             },
             {
                 number: 11,
-                adversary: "Vasco",
+                adversary: "vasco",
                 local: "Fora"
             },
             {
