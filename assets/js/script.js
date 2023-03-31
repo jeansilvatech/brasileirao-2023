@@ -2081,11 +2081,14 @@ team.forEach((card)=>{
                 </div>`
                   
             })
+            const matches = document.querySelectorAll('.matches')
+            const matchesReturn = document.querySelectorAll('.content .return')
+
             const btnShift = document.querySelector('.btn-shift')
             const btnReturn = document.querySelector('.btn-return')
+            btnReturn.style.display='flex';
             btnReturn.addEventListener('click', ()=>{
-                const matches = document.querySelectorAll('.matches')
-                const matchesReturn = document.querySelectorAll('.content .return')
+               
                 matches.forEach((matchesShift)=>{
                     matchesShift.style.display = 'none'
                 })
@@ -2094,11 +2097,10 @@ team.forEach((card)=>{
             
                 })
                 btnShift.style.display='flex';
-                btnReturn.style.display='none'
+                btnReturn.style.display='none';
+                
             }) 
             btnShift.addEventListener('click', ()=>{
-                const matches = document.querySelectorAll('.matches')
-                const matchesReturn = document.querySelectorAll('.content .return')
                 matches.forEach((matchesShift)=>{
                     matchesShift.style.display = 'flex'
                 })
