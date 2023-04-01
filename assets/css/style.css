@@ -126,7 +126,10 @@ body {
     object-fit: contain;
     margin: 10px;
 }
-
+.team h2,
+.team p{
+    text-align: center;
+}
 .container-games {
     position: fixed;
     width: 100vw;
