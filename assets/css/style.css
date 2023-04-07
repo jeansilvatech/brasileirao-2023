@@ -481,6 +481,17 @@ span {
     }
 }
 @media(max-width:320px){
+    .container .team {
+        width: 130px;
+    }
+
+    .container .team img {
+        width: 50px;
+    }
+    .container .team h2{
+        font-size: 17px;
+        margin-bottom: 3px;
+    }
    .container-games .games{
         width: 100vw;
    } 
