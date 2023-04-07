@@ -480,3 +480,8 @@ span {
         display: none;
     }
 }
+@media(max-width:320px){
+   .container-games .games{
+        width: 100vw;
+   } 
+}
