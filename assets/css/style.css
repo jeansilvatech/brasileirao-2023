@@ -33,7 +33,6 @@ body {
     width: 30%;
     background-color: #191970;
     border-right: 2px solid yellow;
-
 }
 
 @keyframes enter {
@@ -54,12 +53,32 @@ body {
 .name img {
     width: 200px;
     margin-bottom: 10px;
+    transition: 500ms;
+}
+.name img:hover{
+    animation: imgHover 5s ease-in-out infinite;
+    transition: 500ms;
 }
 
 .name h1 {
     text-align: center;
+    transition: 500ms;
+    opacity: 0;
 }
-
+.name img:hover~ h1{
+    opacity: 1;
+ }
+ @keyframes imgHover {
+     0%, 100%{
+         transform: translateY(0px);
+     }
+     
+     50%{
+         transform: translateY(-20px);
+ 
+     }
+     
+ }
 .container {
     width: 1000px;
     height: 100vh;
