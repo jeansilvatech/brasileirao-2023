@@ -3,7 +3,6 @@ const local = ["Casa", "Fora"]
 const data = await fetch('../data/data.json')
 const res = await data.json();
 
-console.log(res)
 res.forEach((team)=>{
     
     container.innerHTML += `

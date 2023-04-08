@@ -64,6 +64,7 @@ body {
     text-align: center;
     transition: 500ms;
     opacity: 1;
+    letter-spacing: 4px;
 }
 .name img:hover~ h1{
     opacity: 0;
@@ -78,6 +79,32 @@ body {
  
      }
      
+ }
+ .name .footer{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .footer h3{
+    font-weight: 300;
+    font-size: 15px;
+ }
+ .footer span{
+    font-weight: 500;
+ }
+ .footer a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .footer i{
+    font-size: 25px;
+    margin-top: 5px;
+ }
+ .footer i:hover{
+    color: #c1c1c1;
  }
 .container {
     width: 1000px;
@@ -137,6 +164,7 @@ body {
     color: #c1c1c1;
     font-size: 15px;
     margin-bottom: 5px;
+   
 }
 
 .container .team img {
@@ -432,7 +460,9 @@ span {
         width: 90%;
         height: 95%;
     }
-
+    .name .footer{
+        display: none;
+     }
 }
 
 @media(max-width:480px) {
@@ -498,6 +528,7 @@ span {
     .content .matches .local {
         display: none;
     }
+    
 }
 @media(max-width:320px){
     .container .team {
