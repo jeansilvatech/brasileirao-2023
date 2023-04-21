@@ -486,7 +486,7 @@ span {
         height: 180px;
         width: 100vw;
         background-color: #191970;
-        border-bottom: 2px solid yellow;
+        border-bottom: 4px solid yellow;
         border-right: 0;
         padding: 5px;
         margin: 0;
@@ -501,9 +501,7 @@ span {
     @keyframes enterMobile {
         0% {
             height: 100%;
-            border-bottom: 50px solid yellow;
         }
-
     }
 
     .container .team {
