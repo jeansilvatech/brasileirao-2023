@@ -28,11 +28,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: enterHeader 2s ease-out;
+    animation: enterHeader 2s ease-in-out;
     height: 100%;
     width: 30%;
     background-color: #191970;
     border-right: 2px solid yellow;
+    border-radius: 0 25px 25px 0;
 }
 
 @keyframes enterHeader {
@@ -489,7 +490,8 @@ span {
         border-right: 0;
         padding: 5px;
         margin: 0;
-        animation: enterMobile 3s ease-in-out;
+        animation: enterMobile 5s ease-in-out;
+        border-radius: 0 0 25px 25px;
     }
 
     .name h1 {
@@ -498,7 +500,7 @@ span {
 
     @keyframes enterMobile {
         0% {
-            height: 100vh;
+            height: 100%;
             border-bottom: 50px solid yellow;
         }
 
