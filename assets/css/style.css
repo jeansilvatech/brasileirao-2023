@@ -179,7 +179,7 @@ body {
     height: 90px;
     object-fit: contain;
     margin: 10px;
-    filter: drop-shadow(0 0 0.5rem #1c1c1c);
+    filter: drop-shadow(0 0 0.2rem #1c1c1c);
 }
 .team h2,
 .team p{
@@ -318,7 +318,6 @@ body {
 
 .content .team img {
     width: 70px;
-    filter: drop-shadow(0 0 0.5rem #1c1c1c); 
 
 }
 
