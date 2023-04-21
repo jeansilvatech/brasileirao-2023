@@ -46,10 +46,11 @@ body {
 .name img {
     width: 200px;
     margin-bottom: 10px;
+    animation: img 5s ease-in-out infinite;
     transition: 500ms;
 }
 .name img:hover{
-    animation: imgHover 5s ease-in-out infinite;
+    animation: img 5s ease-in-out infinite;
     transition: 500ms;
 }
 
@@ -59,10 +60,13 @@ body {
     opacity: 1;
     letter-spacing: 4px;
 }
+.name h1 span{
+    color: yellow;
+}
 .name img:hover~ h1{
     opacity: 0;
  }
- @keyframes imgHover {
+ @keyframes img {
      0%, 100%{
          transform: translateY(0px);
      }
@@ -497,7 +501,9 @@ span {
     .name h1 {
         font-size: 20px;
     }
-
+    .name img{
+        animation: none;
+    }
     @keyframes enterMobile {
         0% {
             height: 100%;
