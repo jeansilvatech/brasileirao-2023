@@ -28,24 +28,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: enter 2s ease-out;
+    animation: enterHeader 2s ease-out;
     height: 100%;
     width: 30%;
     background-color: #191970;
     border-right: 2px solid yellow;
 }
 
-@keyframes enter {
+@keyframes enterHeader {
     0% {
-        transform: translateY(-500px);
-    }
-
-    50% {
-        transform: translateY(100px);
-    }
-
-    100% {
-        transform: translateX(0px);
+        transform: translateX(-500px);
     }
 
 }
@@ -87,7 +79,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    animation: footer 3s ease-in-out;
  }
+ @keyframes footer {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    
+ }
+
  .footer h3{
     font-weight: 300;
     font-size: 15px;
@@ -113,12 +115,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    animation: enterTeams 1s ease-in-out;
+    animation: enterTeams 3s ease-in-out;
 }
 
 @keyframes enterTeams {
     0% {
-        opacity: 0;
+       opacity: 0;
     }
 
 }
@@ -134,7 +136,6 @@ body {
     border-bottom: 3px solid transparent;
     transition: 500ms;
 }
-
 .container .team:hover {
     background-color: rgba(25, 25, 112, 1);
     transform: scale(1.2);
@@ -177,6 +178,7 @@ body {
 .team p{
     text-align: center;
 }
+
 .container-games {
     position: fixed;
     width: 100vw;
@@ -250,7 +252,7 @@ body {
 }
 
 .navigation .close:hover {
-    color: rgba(30, 144, 255, 0.9);
+    color: yellow;
 }
 
 .games .content {
@@ -279,6 +281,7 @@ body {
     flex-direction: column;
 
 }
+
 
 .content .team .legend {
     display: flex;
