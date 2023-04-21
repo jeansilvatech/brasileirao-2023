@@ -47,6 +47,7 @@ body {
     width: 200px;
     margin-bottom: 10px;
     animation: img 5s ease-in-out infinite;
+    filter: drop-shadow(0 0 0.75rem #1c1c1c);
     transition: 500ms;
 }
 .name img:hover{
@@ -143,10 +144,10 @@ body {
 }
 .container .team:hover {
     background-color: rgba(25, 25, 112, 1);
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 500ms;
     border-bottom: 3px solid yellow;
-    animation: card 4s infinite;
+    animation: card 3s infinite;
 }
 
 @keyframes card {
@@ -178,6 +179,7 @@ body {
     height: 90px;
     object-fit: contain;
     margin: 10px;
+    filter: drop-shadow(0 0 0.5rem #1c1c1c);
 }
 .team h2,
 .team p{
@@ -316,6 +318,7 @@ body {
 
 .content .team img {
     width: 70px;
+    filter: drop-shadow(0 0 0.5rem #1c1c1c); 
 
 }
 
