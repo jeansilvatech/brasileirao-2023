@@ -6,13 +6,12 @@ const res = await data.json();
 res.forEach((team)=>{
     
     container.innerHTML += `
-    <div class="team ${team.image.split(".svg").join("")}">
+    <div class="team ${team.image.split(".svg").join("")}" tabindex="1">
             <img src="./assets/img/${team.image}" alt="">
             <h2>${team.name}</h2>
             <p>${team.state}</p>
     </div>
-    ` 
-   
+    `  
 })
 const containerGames = document.querySelector('.container-games')
 const games = document.querySelector('.games')
@@ -104,4 +103,15 @@ team.forEach((card)=>{
 games.classList.remove('enter-modal')
 btnClose.addEventListener('click', ()=>{
     containerGames.style.display = 'none';
+})
+const header = document.querySelector('.name')
+const logo = document.querySelector('#logo')
+const body = document.querySelector('body')
+header.addEventListener('mouseover', ()=>{
+    logo.style.filter = 'drop-shadow(0 0 0.75rem yellow)'
+    body.style.backgroundColor = '#191970'
+})
+header.addEventListener('mouseout', ()=>{
+    logo.style.filter = 'drop-shadow(0 0 0.75rem #1C1C1C)'
+    body.style.backgroundColor = '#006400'
 })
