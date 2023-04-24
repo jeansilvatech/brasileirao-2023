@@ -433,7 +433,7 @@ span {
     object-fit: contain;
     margin: 5px;
 }
-.name img {
+.name #logo {
     width: 140px;
 }
 }
@@ -447,7 +447,7 @@ span {
         margin: 10px;
     }
 
-    .name img {
+    .name #logo {
         width: 100px;
     }
     .name {
@@ -507,7 +507,7 @@ span {
     .name h1 {
         font-size: 20px;
     }
-    .name img{
+    .name #logo{
         animation: none;
     }
     @keyframes enterMobile {
