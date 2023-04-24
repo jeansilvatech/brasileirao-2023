@@ -107,11 +107,31 @@ btnClose.addEventListener('click', ()=>{
 const header = document.querySelector('.name')
 const logo = document.querySelector('#logo')
 const body = document.querySelector('body')
+const screen = window.matchMedia("(max-width:480px)")
+
+
+
 header.addEventListener('mouseover', ()=>{
     logo.style.filter = 'drop-shadow(0 0 0.75rem yellow)'
     body.style.backgroundColor = '#191970'
+    if(screen.matches){
+        header.style.borderRight= 'none'
+        header.style.borderBottom = '20px solid yellow'
+    }else{
+        header.style.borderRight = '40px solid yellow'
+        header.style.borderBottom= 'none'
+    }
 })
 header.addEventListener('mouseout', ()=>{
     logo.style.filter = 'drop-shadow(0 0 0.75rem #1C1C1C)'
     body.style.backgroundColor = '#006400'
+    
+    if(screen.matches){
+        header.style.borderRight= 'none'
+        header.style.borderBottom = '2px solid yellow'
+    }else{
+        header.style.borderRight = '2px solid yellow'
+        header.style.borderBottom= 'none'
+        
+    }
 })
