@@ -479,7 +479,7 @@ span {
      }
 }
 
-@media(max-width:480px) {
+@media(max-width:600px) {
     .container .team:hover {
         background-color: transparent;
         transform: scale(1.2);
@@ -491,7 +491,12 @@ span {
         width: 90px;
         height: 45px;
     }
-
+    .container-games .games {
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
     .name {
         height: 180px;
         width: 100vw;
@@ -500,7 +505,7 @@ span {
         border-right: 0;
         padding: 5px;
         margin: 0;
-        animation: enterMobile 5s ease-in;
+        animation: enterMobile 2s ease-in-out;
         border-radius: 0 0 25px 25px;
     }
 
