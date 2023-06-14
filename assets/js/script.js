@@ -40,7 +40,6 @@ team.forEach((card)=>{
                             <p>Fora<span class="fora"></span></p>
                         </div>
                         <div>
-                            
                             <div class="btn-shift"><i class="fa-solid fa-chevron-up"></i></div>
                         </div>
                 </div>
