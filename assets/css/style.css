@@ -124,7 +124,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    animation: enterTeams 3s ease-in-out;
+    animation: enterTeams 1.5s ease-in-out;
 }
 
 @keyframes enterTeams {
@@ -183,6 +183,7 @@ body {
     object-fit: contain;
     margin: 10px;
     filter: drop-shadow(0 0 0.2rem #1c1c1c);
+
 }
 .team h2,
 .team p{
@@ -509,7 +510,7 @@ span {
         border-right: 0;
         padding: 5px;
         margin: 0;
-        animation: enterMobile 2s ease-in-out;
+        animation: enterMobile 1.5s ease-in-out;
         border-radius: 0 0 25px 25px;
     }
 
@@ -521,7 +522,8 @@ span {
     }
     @keyframes enterMobile {
         0% {
-            height: 100%;
+           transform: translateY(-500px) scale(1.5);
+        
         }
     }
 

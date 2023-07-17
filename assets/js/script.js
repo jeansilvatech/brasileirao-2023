@@ -34,7 +34,7 @@ team.forEach((card)=>{
             content.innerHTML = `
                 <div class="team ${team.image.split(".svg").join("")}">
                     <p>Tabela</p>
-                        <img src="./assets/img/${team.image}" alt="">
+                        <img class="team-image" src="./assets/img/${team.image}" alt="">
                         <div class="legend">
                             <p>Casa<span class="casa"></span></p>
                             <p>Fora<span class="fora"></span></p>
