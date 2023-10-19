@@ -47,7 +47,7 @@ team.forEach((card)=>{
                 </div>
             `  
             
-                team.matches.map((match)=>{
+                team.matches.forEach((match)=>{
                 content.innerHTML +=
                 `
                 <div class="matches ${match.local.toLowerCase()}">
