@@ -32,7 +32,7 @@ body {
     height: 100%;
     width: 30%;
     background-color: #191970;
-    border-right: 2px solid yellow;
+    border-right: 2px solid #ffff00;
     border-radius: 0 25px 25px 0;
 }
 
@@ -63,7 +63,7 @@ body {
     letter-spacing: 4px;
 }
 .name h1 span{
-    color: yellow;
+    color: #ffff00;
 }
 
 #logo:hover~ h1{
@@ -115,7 +115,7 @@ body {
     margin-top: 5px;
  }
  .footer i:hover{
-    color: yellow;
+    color: #ffff00;
  }
 .container {
     width: 1000px;
@@ -149,7 +149,7 @@ body {
     background-color: rgba(25, 25, 112, 1);
     transform: scale(1.1);
     transition: 500ms;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #ffff00;
     animation: card 3s infinite;
 }
 
@@ -227,7 +227,7 @@ body {
 
 .games .return .btn-return,
 .content .btn-shift {
-    background-color: yellow;
+    background-color: #ffff00;
     color: #1c1c1c;
     font-weight: 700;
     padding: 10px;
@@ -263,7 +263,7 @@ body {
 }
 
 .navigation .close:hover {
-    color: yellow;
+    color: #ffff00;
     transform: rotateZ(90deg);
 }
 
@@ -361,7 +361,6 @@ body {
     transform: scale(1.1);
     transition: 500ms;
 }
-
 .content .matches img {
     width: 40px;
 }
@@ -372,7 +371,7 @@ span {
 }
 
 .content .matches span {
-    color: #c1c1c1;
+    color: #ffffff;
 }
 
 .enter-modal {
@@ -461,7 +460,7 @@ span {
         height: 180px;
         width: 100vw;
         background-color: #191970;
-        border-bottom: 2px solid yellow;
+        border-bottom: 2px solid #ffff00;
         border-right: 0;
         padding: 5px;
         margin: 0;
@@ -474,7 +473,7 @@ span {
     @keyframes enterMobile {
         0% {
             height: 100vh;
-            border-bottom: 50px solid yellow;
+            border-bottom: 50px solid #ffff00;
         }
     }
     .container-games .games {
@@ -509,10 +508,10 @@ span {
        margin: 10px;
     }
     .name {
-        height: 180px;
+        height: 100px;
         width: 100vw;
         background-color: #191970;
-        border-bottom: 4px solid yellow;
+        border-bottom: 4px solid #ffff00;
         border-right: 0;
         padding: 5px;
         margin: 0;
@@ -522,17 +521,22 @@ span {
 
     .name h1 {
         font-size: 20px;
+        display: none;
     }
     .name #logo{
         animation: none;
+        width: 65px;
     }
     @keyframes enterMobile {
         0% {
-           transform: translateY(-500px) scale(1.5);
+           opacity: 0;
         
         }
     }
-
+    .container{
+        padding-bottom: 20px;
+        height: auto;
+    }
     .container .team {
         width: 150px;
     }
