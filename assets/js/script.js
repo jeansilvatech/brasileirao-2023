@@ -9,7 +9,7 @@ res.forEach((team)=>{
     <div class="team ${team.image.split(".svg").join("")}" tabindex="1">
             <img src="./assets/img/${team.image}" alt="">
             <h2>${team.name}</h2>
-            <p>${team.state}</p>
+            <p><i class="fa-solid fa-location-dot"></i>${team.state}</p>
     </div>
     `  
 })

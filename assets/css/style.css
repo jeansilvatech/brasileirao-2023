@@ -168,13 +168,14 @@ body {
 .container .team h2 {
     color: #fff;
     font-size: 20px;
+    margin-bottom: 3px;
 }
-
+.container .team p i{
+    margin-right: 3px;
+}
 .container .team p {
-    color: #c1c1c1;
     font-size: 15px;
     margin-bottom: 5px;
-   
 }
 
 .container .team img {

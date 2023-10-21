@@ -1,7 +1,7 @@
  [{
          "name": "América",
          "image": "america.svg",
-         "state": "Minas Gerais",
+         "state": "MG",
          "matches": [{
                  "number": 1,
                  "adversary": "fluminense",
@@ -102,7 +102,7 @@
      {
          "name": "Athletico",
          "image": "athletico.svg",
-         "state": "Paraná",
+         "state": "PR",
          "matches": [{
                  "number": 1,
                  "adversary": "goias",
@@ -203,7 +203,7 @@
      {
          "name": "Atlético",
          "image": "atletico.svg",
-         "state": "Minas Gerais",
+         "state": "MG",
          "matches": [{
                  "number": 1,
                  "adversary": "vasco",
@@ -304,7 +304,7 @@
      {
          "name": "Bahia",
          "image": "bahia.svg",
-         "state": "Bahia",
+         "state": "BA",
          "matches": [{
                  "number": 1,
                  "adversary": "bragantino",
@@ -405,7 +405,7 @@
      {
          "name": "Botafogo",
          "image": "botafogo.svg",
-         "state": "Rio de Janeiro",
+         "state": "RJ",
          "matches": [{
                  "number": 1,
                  "adversary": "sao-paulo",
@@ -506,7 +506,7 @@
      {
          "name": "RB Bragantino",
          "image": "bragantino.svg",
-         "state": "São Paulo",
+         "state": "SP",
          "matches": [{
                  "number": 1,
                  "adversary": "bahia",
@@ -607,7 +607,7 @@
      {
          "name": "Corinthians",
          "image": "corinthians.svg",
-         "state": "São Paulo",
+         "state": "SP",
          "matches": [{
                  "number": 1,
                  "adversary": "cruzeiro",
@@ -708,7 +708,7 @@
      {
          "name": "Coritiba",
          "image": "coritiba.svg",
-         "state": "Paraná",
+         "state": "PR",
          "matches": [{
                  "number": 1,
                  "adversary": "flamengo",
@@ -809,7 +809,7 @@
      {
          "name": "Cruzeiro",
          "image": "cruzeiro.svg",
-         "state": "Minas Gerais",
+         "state": "MG",
          "matches": [{
                  "number": 1,
                  "adversary": "corinthians",
@@ -910,7 +910,7 @@
      {
          "name": "Cuiabá",
          "image": "cuiaba.svg",
-         "state": "Mato Grosso",
+         "state": "MT",
          "matches": [{
                  "number": 1,
                  "adversary": "palmeiras",
@@ -1011,7 +1011,7 @@
      {
          "name": "Flamengo",
          "image": "flamengo.svg",
-         "state": "Rio de Janeiro",
+         "state": "RJ",
          "matches": [{
                  "number": 1,
                  "adversary": "coritiba",
@@ -1112,7 +1112,7 @@
      {
          "name": "Fluminense",
          "image": "fluminense.svg",
-         "state": "Rio de Janeiro",
+         "state": "RJ",
          "matches": [{
                  "number": 1,
                  "adversary": "america",
@@ -1213,7 +1213,7 @@
      {
          "name": "Fortaleza",
          "image": "fortaleza.svg",
-         "state": "Ceará",
+         "state": "CE",
          "matches": [{
                  "number": 1,
                  "adversary": "internacional",
@@ -1314,7 +1314,7 @@
      {
          "name": "Goiás",
          "image": "goias.svg",
-         "state": "Goiás",
+         "state": "GO",
          "matches": [{
                  "number": 1,
                  "adversary": "athletico",
@@ -1415,7 +1415,7 @@
      {
          "name": "Grêmio",
          "image": "gremio.svg",
-         "state": "Rio Grande do Sul",
+         "state": "RS",
          "matches": [{
                  "number": 1,
                  "adversary": "santos",
@@ -1516,7 +1516,7 @@
      {
          "name": "Internacional",
          "image": "internacional.svg",
-         "state": "Rio Grande do Sul",
+         "state": "RS",
          "matches": [{
                  "number": 1,
                  "adversary": "fortaleza",
@@ -1617,7 +1617,7 @@
      {
          "name": "Palmeiras",
          "image": "palmeiras.svg",
-         "state": "São Paulo",
+         "state": "SP",
          "matches": [{
                  "number": 1,
                  "adversary": "cuiaba",
@@ -1718,7 +1718,7 @@
      {
          "name": "Santos",
          "image": "santos.svg",
-         "state": "São Paulo",
+         "state": "SP",
          "matches": [{
                  "number": 1,
                  "adversary": "gremio",
@@ -1819,7 +1819,7 @@
      {
          "name": "São Paulo",
          "image": "sao-paulo.svg",
-         "state": "São Paulo",
+         "state": "SP",
          "matches": [{
                  "number": 1,
                  "adversary": "botafogo",
@@ -1920,7 +1920,7 @@
      {
          "name": "Vasco da Gama",
          "image": "vasco.svg",
-         "state": "Rio de Janeiro",
+         "state": "RJ",
          "matches": [{
                  "number": 1,
                  "adversary": "atletico",
