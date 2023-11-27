@@ -35,7 +35,7 @@ team.forEach((card)=>{
                 <div class="team ${team.image.split(".svg").join("")}">
                     <p>Tabela</p>
                         <img class="team-image" src="./assets/img/${team.image}" alt="">
-                        <div class="legend">
+                        <div class="subtitle">
                             <p>Casa<span class="casa"></span></p>
                             <p>Fora<span class="fora"></span></p>
                         </div>
@@ -58,7 +58,6 @@ team.forEach((card)=>{
                     <span>${match.number+19}ª</span>
                     <img src="./assets/img/${match.adversary}.svg" alt="">
                 </div>`
-                  
             })
             const matches = document.querySelectorAll('.matches')
             const matchesReturn = document.querySelectorAll('.content .return')

@@ -61,6 +61,7 @@ body {
     transition: 500ms;
     opacity: 1;
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
 .name h1 span{
     color: #ffff00;
@@ -296,12 +297,12 @@ body {
 }
 
 
-.content .team .legend {
+.content .team .subtitle {
     display: flex;
     margin: 10px;
 }
 
-.content .team .legend p {
+.content .team .subtitle p {
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
@@ -311,7 +312,7 @@ body {
     align-items: center;
 }
 
-.content .team .legend p span {
+.content .team .subtitle p span {
     width: 10px;
     height: 10px;
     margin-left: 5px;
