@@ -491,6 +491,15 @@ span {
 }
 
 @media(max-width:600px) {
+    .container .team{
+        border-top: 1px solid #ffff00;
+        border-bottom: 1px solid #ffff00;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+        white-space: nowrap;
+    }
+    .container .team p{
+        font-size: 12px;
+    }
     .container .team:hover {
         background-color: transparent;
         transform: scale(1.2);
@@ -513,7 +522,7 @@ span {
        margin: 10px;
     }
     .name {
-        height: 100px;
+        height: 130px;
         width: 100vw;
         background-color: #191970;
         border-bottom: 4px solid #ffff00;
@@ -521,12 +530,11 @@ span {
         padding: 5px;
         margin: 0;
         animation: enterMobile 1.5s ease-in-out;
-        border-radius: 0 0 25px 25px;
+        border-radius: 0 0 15px 15px;
     }
 
     .name h1 {
         font-size: 20px;
-        display: none;
     }
     .name #logo{
         animation: none;
@@ -542,10 +550,6 @@ span {
         padding-bottom: 20px;
         height: auto;
     }
-    .container .team {
-        width: 150px;
-    }
-
     .container .team img {
         width: 70px;
     }
