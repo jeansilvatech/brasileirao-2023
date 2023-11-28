@@ -47,14 +47,15 @@ team.forEach((card)=>{
                 </div>
             `  
             
-                team.matches.forEach((match)=>{
+                team.matches.forEach((match)=>{ 
+                    console.log(match.number)
                 content.innerHTML +=
                 `
-                <div class="matches ${match.local.toLowerCase()}">
+                <div class="matches ${match.number?"past":""} ${match.local.toLowerCase()}">
                     <span>${match.number}ª</span>
                     <img src="./assets/img/${match.adversary}.svg" alt="">
                 </div>
-                <div class="matches return ${match.local.toLowerCase()==='fora'?'casa':'fora'}">
+                <div class="matches return ${match.number+19<36?"past":""} ${match.local.toLowerCase()==='fora'?'casa':'fora'}">
                     <span>${match.number+19}ª</span>
                     <img src="./assets/img/${match.adversary}.svg" alt="">
                 </div>`
