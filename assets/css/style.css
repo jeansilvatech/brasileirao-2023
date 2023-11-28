@@ -111,12 +111,15 @@ body {
     text-decoration: none;
     color: #fff;
  }
- .footer i{
+ /* .footer i{
     font-size: 25px;
     margin-top: 5px;
  }
  .footer i:hover{
     color: #ffff00;
+ } */
+ .footer a img{
+    width: 40px;
  }
 .container {
     width: 1000px;
