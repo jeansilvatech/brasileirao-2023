@@ -48,7 +48,6 @@ team.forEach((card)=>{
             `  
             
                 team.matches.forEach((match)=>{ 
-                    console.log(match.number)
                 content.innerHTML +=
                 `
                 <div class="matches ${match.number?"past":""} ${match.local.toLowerCase()}">
