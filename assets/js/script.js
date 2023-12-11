@@ -6,10 +6,11 @@ const res = await data.json();
 res.forEach((team)=>{
     
     container.innerHTML += `
-    <div class="team ${team.image.split(".svg").join("")}" tabindex="1">
+    <div class="team ${team.image.split(".svg").join("")} ${team.final}" tabindex="1">
             <img src="./assets/img/${team.image}" alt="">
             <h2>${team.name}</h2>
             <p><i class="fa-solid fa-location-dot"></i>${team.state}</p>
+            <p class="team_${team.final}"id="final">${team.final}</p>
     </div>
     `  
 })

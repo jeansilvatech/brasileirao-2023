@@ -2,6 +2,7 @@
          "name": "América",
          "image": "america.svg",
          "state": "MG",
+         "final": "rebaixado",
          "matches": [{
                  "number": 1,
                  "adversary": "fluminense",
@@ -103,6 +104,7 @@
          "name": "Athletico",
          "image": "athletico.svg",
          "state": "PR",
+         "final": "sul-americana",
          "matches": [{
                  "number": 1,
                  "adversary": "goias",
@@ -204,6 +206,7 @@
          "name": "Atlético",
          "image": "atletico.svg",
          "state": "MG",
+         "final": "libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "vasco",
@@ -305,6 +308,7 @@
          "name": "Bahia",
          "image": "bahia.svg",
          "state": "BA",
+         "final": "manteve",
          "matches": [{
                  "number": 1,
                  "adversary": "bragantino",
@@ -406,6 +410,7 @@
          "name": "Botafogo",
          "image": "botafogo.svg",
          "state": "RJ",
+         "final": "pre-libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "sao-paulo",
@@ -507,6 +512,7 @@
          "name": "RB Bragantino",
          "image": "bragantino.svg",
          "state": "SP",
+         "final": "pre-libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "bahia",
@@ -608,6 +614,7 @@
          "name": "Corinthians",
          "image": "corinthians.svg",
          "state": "SP",
+         "final": "sul-americana",
          "matches": [{
                  "number": 1,
                  "adversary": "cruzeiro",
@@ -709,6 +716,7 @@
          "name": "Coritiba",
          "image": "coritiba.svg",
          "state": "PR",
+         "final": "rebaixado",
          "matches": [{
                  "number": 1,
                  "adversary": "flamengo",
@@ -810,6 +818,7 @@
          "name": "Cruzeiro",
          "image": "cruzeiro.svg",
          "state": "MG",
+         "final": "sul-americana",
          "matches": [{
                  "number": 1,
                  "adversary": "corinthians",
@@ -911,6 +920,7 @@
          "name": "Cuiabá",
          "image": "cuiaba.svg",
          "state": "MT",
+         "final": "sul-americana",
          "matches": [{
                  "number": 1,
                  "adversary": "palmeiras",
@@ -1012,6 +1022,7 @@
          "name": "Flamengo",
          "image": "flamengo.svg",
          "state": "RJ",
+         "final": "libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "coritiba",
@@ -1113,6 +1124,7 @@
          "name": "Fluminense",
          "image": "fluminense.svg",
          "state": "RJ",
+         "final": "libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "america",
@@ -1214,6 +1226,7 @@
          "name": "Fortaleza",
          "image": "fortaleza.svg",
          "state": "CE",
+         "final": "sul-americana",
          "matches": [{
                  "number": 1,
                  "adversary": "internacional",
@@ -1315,6 +1328,7 @@
          "name": "Goiás",
          "image": "goias.svg",
          "state": "GO",
+         "final": "rebaixado",
          "matches": [{
                  "number": 1,
                  "adversary": "athletico",
@@ -1416,6 +1430,7 @@
          "name": "Grêmio",
          "image": "gremio.svg",
          "state": "RS",
+         "final": "libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "santos",
@@ -1517,6 +1532,7 @@
          "name": "Internacional",
          "image": "internacional.svg",
          "state": "RS",
+         "final": "sul-americana",
          "matches": [{
                  "number": 1,
                  "adversary": "fortaleza",
@@ -1618,6 +1634,7 @@
          "name": "Palmeiras",
          "image": "palmeiras.svg",
          "state": "SP",
+         "final": "campeao",
          "matches": [{
                  "number": 1,
                  "adversary": "cuiaba",
@@ -1719,6 +1736,7 @@
          "name": "Santos",
          "image": "santos.svg",
          "state": "SP",
+         "final": "rebaixado",
          "matches": [{
                  "number": 1,
                  "adversary": "gremio",
@@ -1820,6 +1838,7 @@
          "name": "São Paulo",
          "image": "sao-paulo.svg",
          "state": "SP",
+         "final": "libertadores",
          "matches": [{
                  "number": 1,
                  "adversary": "botafogo",
@@ -1921,6 +1940,7 @@
          "name": "Vasco da Gama",
          "image": "vasco.svg",
          "state": "RJ",
+         "final": "manteve",
          "matches": [{
                  "number": 1,
                  "adversary": "atletico",
