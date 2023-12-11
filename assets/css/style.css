@@ -126,7 +126,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     flex-wrap: wrap;
     animation: enterTeams 1.5s ease-in-out;
 }
