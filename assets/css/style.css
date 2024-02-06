@@ -545,7 +545,7 @@ span {
     .container .team{
         white-space: nowrap;
         margin: 0;
-        width: 50%;
+        width: 45%;
         padding: 10px 0;
     }
     .container .team p{
@@ -553,7 +553,7 @@ span {
     }
     .container .team:hover {
         background-color: transparent;
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: 500ms;
         border-bottom: 1px solid transparent;
     }
